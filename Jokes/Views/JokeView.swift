@@ -83,7 +83,7 @@ private extension JokeView {
         jokeView.addSubview(jokeLabel)
         
         NSLayoutConstraint.activate([
-            jokeLabel.topAnchor.constraint(equalTo: jokeView.centerYAnchor),
+            jokeLabel.centerYAnchor.constraint(equalTo: jokeView.centerYAnchor),
             jokeLabel.leadingAnchor.constraint(equalTo: jokeView.leadingAnchor),
             jokeLabel.trailingAnchor.constraint(equalTo: jokeView.trailingAnchor)
         ])

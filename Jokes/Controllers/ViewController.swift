@@ -69,7 +69,6 @@ private extension ViewController {
             typeView.topAnchor.constraint(equalTo: jokeIdView.bottomAnchor, constant: 24),
             typeView.leadingAnchor.constraint(equalTo: jokeIdView.leadingAnchor),
             typeView.trailingAnchor.constraint(equalTo: jokeIdView.trailingAnchor),
-            jokeView.heightAnchor.constraint(equalToConstant: 244),
             jokeView.topAnchor.constraint(equalTo: typeView.bottomAnchor, constant: 24),
             jokeView.leadingAnchor.constraint(equalTo: typeView.leadingAnchor),
             jokeView.trailingAnchor.constraint(equalTo: typeView.trailingAnchor),
