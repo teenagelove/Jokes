@@ -20,8 +20,9 @@ final class ViewController: UIViewController {
     
     
     private lazy var refreshButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setImage(UIImage(named: Constants.Image.refresh), for: .normal)
+        button.tintColor = .jBlack
         button.backgroundColor = .jWhite
         button.layer.cornerRadius = 8
         button.layer.borderWidth = 2
@@ -29,13 +30,16 @@ final class ViewController: UIViewController {
     }()
     
     private lazy var showButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Show punchline", for: .normal)
         button.setTitleColor(.jBlack, for: .normal)
         button.backgroundColor = .jGreen
         button.titleLabel?.font = Constants.Font.regular
         button.layer.cornerRadius = 8
         button.layer.borderWidth = 2
+        button.addAction(UIAction {_ in
+            print("Show button did tap")
+        }, for: .primaryActionTriggered)
         return button
     }()
     
