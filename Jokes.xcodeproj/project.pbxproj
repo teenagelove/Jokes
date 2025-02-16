@@ -6,36 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AC462E552CF4993100E69078 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E3A2CF4993100E69078 /* Roboto-Medium.ttf */; };
-		AC462E5A2CF4993100E69078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC462E422CF4993100E69078 /* LaunchScreen.storyboard */; };
-		AC462E5C2CF4993100E69078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC462E462CF4993100E69078 /* Assets.xcassets */; };
-		AC462E602CF4993100E69078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC462E4B2CF4993100E69078 /* ViewController.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		AC462DF02CF4942800E69078 /* Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC462E3A2CF4993100E69078 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		AC462E412CF4993100E69078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC462E462CF4993100E69078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC462E472CF4993100E69078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC462E4B2CF4993100E69078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ACB809902D61C64B009E940B /* Exceptions for "Jokes" folder in "Jokes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = AC462DEF2CF4942800E69078 /* Jokes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		ACEC54512D5CA04E007D172F /* Application */ = {
+		ACB809852D61C64B009E940B /* Jokes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Application;
-			sourceTree = "<group>";
-		};
-		ACEC54522D5CA551007D172F /* Constants */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		ACEC54552D5CA950007D172F /* Views */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Views;
+			exceptions = (
+				ACB809902D61C64B009E940B /* Exceptions for "Jokes" folder in "Jokes" target */,
+			);
+			path = Jokes;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -54,7 +45,7 @@
 		AC462DE72CF4942800E69078 = {
 			isa = PBXGroup;
 			children = (
-				AC462E4C2CF4993100E69078 /* Jokes */,
+				ACB809852D61C64B009E940B /* Jokes */,
 				AC462DF12CF4942800E69078 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,69 +56,6 @@
 				AC462DF02CF4942800E69078 /* Jokes.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AC462E3F2CF4993100E69078 /* Roboto */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E3A2CF4993100E69078 /* Roboto-Medium.ttf */,
-			);
-			path = Roboto;
-			sourceTree = "<group>";
-		};
-		AC462E402CF4993100E69078 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E3F2CF4993100E69078 /* Roboto */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		AC462E452CF4993100E69078 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E422CF4993100E69078 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		AC462E482CF4993100E69078 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E402CF4993100E69078 /* Fonts */,
-				AC462E462CF4993100E69078 /* Assets.xcassets */,
-				AC462E472CF4993100E69078 /* Info.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		AC462E4C2CF4993100E69078 /* Jokes */ = {
-			isa = PBXGroup;
-			children = (
-				ACEC54552D5CA950007D172F /* Views */,
-				ACEC54522D5CA551007D172F /* Constants */,
-				ACEC54512D5CA04E007D172F /* Application */,
-				AC462E612CF4994500E69078 /* Controllers */,
-				AC9848792CF4B154007E02CD /* Model */,
-				AC462E452CF4993100E69078 /* Storyboards */,
-				AC462E482CF4993100E69078 /* Resources */,
-			);
-			path = Jokes;
-			sourceTree = "<group>";
-		};
-		AC462E612CF4994500E69078 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E4B2CF4993100E69078 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		AC9848792CF4B154007E02CD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				ACEC54512D5CA04E007D172F /* Application */,
-				ACEC54522D5CA551007D172F /* Constants */,
-				ACEC54552D5CA950007D172F /* Views */,
+				ACB809852D61C64B009E940B /* Jokes */,
 			);
 			name = Jokes;
 			packageProductDependencies = (
@@ -196,9 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC462E552CF4993100E69078 /* Roboto-Medium.ttf in Resources */,
-				AC462E5A2CF4993100E69078 /* LaunchScreen.storyboard in Resources */,
-				AC462E5C2CF4993100E69078 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,22 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC462E602CF4993100E69078 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AC462E422CF4993100E69078 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC462E412CF4993100E69078 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AC462E042CF4942A00E69078 /* Debug */ = {

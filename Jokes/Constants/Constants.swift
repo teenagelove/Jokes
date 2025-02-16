@@ -8,5 +8,14 @@ enum Constants {
     
     enum Image {
         static let refresh = "Refresh"
+        static let logo = "LaunchScreenLogo"
+    }
+    
+    enum API {
+        static let baseURl = "https://official-joke-api.appspot.com/jokes/random"
+    }
+    
+    enum Error {
+        static let failedPreparingURL = "Failed to prepare URL"
     }
 }

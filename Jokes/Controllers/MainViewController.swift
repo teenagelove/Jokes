@@ -1,6 +1,12 @@
 import UIKit
 
-final class ViewController: UIViewController {
+
+protocol LoadViewControllerDelegate: AnyObject {
+    func fetchJoke(vc: LoadViewController?, isFirstTime: Bool, completion: (() -> Void)?)
+}
+
+final class MainViewController: UIViewController {
+    
     // MARK: - UI Components
     private lazy var jokeIdLabel = createLabel(text: "Joke ID")
     private lazy var numberOfJokeIdLabel = createLabel(text: "265")
@@ -26,6 +32,9 @@ final class ViewController: UIViewController {
         button.backgroundColor = .jWhite
         button.layer.cornerRadius = 8
         button.layer.borderWidth = 2
+        button.addAction(UIAction { [weak self] _ in
+            self?.switchJoke()
+        }, for: .primaryActionTriggered)
         return button
     }()
     
@@ -37,11 +46,15 @@ final class ViewController: UIViewController {
         button.titleLabel?.font = Constants.Font.regular
         button.layer.cornerRadius = 8
         button.layer.borderWidth = 2
-        button.addAction(UIAction {_ in
-            print("Show button did tap")
+        button.addAction(UIAction { [weak self] _ in
+            self?.showAlert()
         }, for: .primaryActionTriggered)
         return button
     }()
+    
+    // MARK: - Properties
+    private let jokesLoader = JokesLoader.shared
+    private var joke: Joke?
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -53,7 +66,7 @@ final class ViewController: UIViewController {
 }
 
 // MARK: - Setup Methods
-private extension ViewController {
+private extension MainViewController {
     func setupView() {
         view.backgroundColor = .jGrey
     }
@@ -89,12 +102,53 @@ private extension ViewController {
     }
 }
 
-private extension ViewController {
+// MARK: - Private Methods
+private extension MainViewController {
     func createLabel(text: String) -> UILabel {
         let label = UILabel()
         label.textColor = .jBlack
         label.font = Constants.Font.regular
         label.text = text
         return label
+    }
+    
+    func updateUI() {
+        numberOfJokeIdLabel.text = joke?.id.description
+        textOfTypeLabel.text = joke?.type
+        jokeLabel.text = joke?.setup
+    }
+    
+    func switchJoke() {
+        fetchJoke()
+        jokeLabel.text = joke?.setup
+    }
+    
+    func showAlert() {
+        AlertPresenter.presentAlert(
+            on: self,
+            title: "Punchline",
+            message: joke?.punchline ?? "Ooops, something went wrong") { [weak self] in
+                self?.switchJoke()
+            }
+    }
+}
+
+// MARK: - LoadViewControllerDelegate
+extension MainViewController: LoadViewControllerDelegate {
+    func fetchJoke(vc: LoadViewController? = nil, isFirstTime: Bool = false, completion: (() -> Void)? = nil) {
+        jokesLoader.fetch { [weak self] result in
+            switch result {
+            case .success(let joke):
+                self?.joke = joke
+                self?.updateUI()
+                if isFirstTime {
+                    vc?.dismiss(animated: true) {
+                        completion?()
+                    }
+                }
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
 }
