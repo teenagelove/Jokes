@@ -6,51 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		AC462E4D2CF4993100E69078 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC462E322CF4993100E69078 /* LICENSE.txt */; };
-		AC462E4E2CF4993100E69078 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E332CF4993100E69078 /* Roboto-Black.ttf */; };
-		AC462E4F2CF4993100E69078 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E342CF4993100E69078 /* Roboto-BlackItalic.ttf */; };
-		AC462E502CF4993100E69078 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E352CF4993100E69078 /* Roboto-Bold.ttf */; };
-		AC462E512CF4993100E69078 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E362CF4993100E69078 /* Roboto-BoldItalic.ttf */; };
-		AC462E522CF4993100E69078 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E372CF4993100E69078 /* Roboto-Italic.ttf */; };
-		AC462E532CF4993100E69078 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E382CF4993100E69078 /* Roboto-Light.ttf */; };
-		AC462E542CF4993100E69078 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E392CF4993100E69078 /* Roboto-LightItalic.ttf */; };
-		AC462E552CF4993100E69078 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E3A2CF4993100E69078 /* Roboto-Medium.ttf */; };
-		AC462E562CF4993100E69078 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E3B2CF4993100E69078 /* Roboto-MediumItalic.ttf */; };
-		AC462E572CF4993100E69078 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E3C2CF4993100E69078 /* Roboto-Regular.ttf */; };
-		AC462E582CF4993100E69078 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E3D2CF4993100E69078 /* Roboto-Thin.ttf */; };
-		AC462E592CF4993100E69078 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC462E3E2CF4993100E69078 /* Roboto-ThinItalic.ttf */; };
-		AC462E5A2CF4993100E69078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC462E422CF4993100E69078 /* LaunchScreen.storyboard */; };
-		AC462E5B2CF4993100E69078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC462E442CF4993100E69078 /* Main.storyboard */; };
-		AC462E5C2CF4993100E69078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC462E462CF4993100E69078 /* Assets.xcassets */; };
-		AC462E5E2CF4993100E69078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC462E492CF4993100E69078 /* AppDelegate.swift */; };
-		AC462E5F2CF4993100E69078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC462E4A2CF4993100E69078 /* SceneDelegate.swift */; };
-		AC462E602CF4993100E69078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC462E4B2CF4993100E69078 /* ViewController.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		AC462DF02CF4942800E69078 /* Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC462E322CF4993100E69078 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		AC462E332CF4993100E69078 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
-		AC462E342CF4993100E69078 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		AC462E352CF4993100E69078 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		AC462E362CF4993100E69078 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		AC462E372CF4993100E69078 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		AC462E382CF4993100E69078 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		AC462E392CF4993100E69078 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		AC462E3A2CF4993100E69078 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		AC462E3B2CF4993100E69078 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		AC462E3C2CF4993100E69078 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		AC462E3D2CF4993100E69078 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		AC462E3E2CF4993100E69078 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		AC462E412CF4993100E69078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC462E432CF4993100E69078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC462E462CF4993100E69078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC462E472CF4993100E69078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC462E492CF4993100E69078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC462E4A2CF4993100E69078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC462E4B2CF4993100E69078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ACB809902D61C64B009E940B /* Exceptions for "Jokes" folder in "Jokes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = AC462DEF2CF4942800E69078 /* Jokes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ACB809852D61C64B009E940B /* Jokes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ACB809902D61C64B009E940B /* Exceptions for "Jokes" folder in "Jokes" target */,
+			);
+			path = Jokes;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC462DED2CF4942800E69078 /* Frameworks */ = {
@@ -66,7 +45,7 @@
 		AC462DE72CF4942800E69078 = {
 			isa = PBXGroup;
 			children = (
-				AC462E4C2CF4993100E69078 /* Jokes */,
+				ACB809852D61C64B009E940B /* Jokes */,
 				AC462DF12CF4942800E69078 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,73 +56,6 @@
 				AC462DF02CF4942800E69078 /* Jokes.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AC462E3F2CF4993100E69078 /* Roboto */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E332CF4993100E69078 /* Roboto-Black.ttf */,
-				AC462E342CF4993100E69078 /* Roboto-BlackItalic.ttf */,
-				AC462E352CF4993100E69078 /* Roboto-Bold.ttf */,
-				AC462E362CF4993100E69078 /* Roboto-BoldItalic.ttf */,
-				AC462E372CF4993100E69078 /* Roboto-Italic.ttf */,
-				AC462E382CF4993100E69078 /* Roboto-Light.ttf */,
-				AC462E392CF4993100E69078 /* Roboto-LightItalic.ttf */,
-				AC462E3A2CF4993100E69078 /* Roboto-Medium.ttf */,
-				AC462E3B2CF4993100E69078 /* Roboto-MediumItalic.ttf */,
-				AC462E3C2CF4993100E69078 /* Roboto-Regular.ttf */,
-				AC462E3D2CF4993100E69078 /* Roboto-Thin.ttf */,
-				AC462E3E2CF4993100E69078 /* Roboto-ThinItalic.ttf */,
-				AC462E322CF4993100E69078 /* LICENSE.txt */,
-			);
-			path = Roboto;
-			sourceTree = "<group>";
-		};
-		AC462E402CF4993100E69078 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E3F2CF4993100E69078 /* Roboto */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		AC462E452CF4993100E69078 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E422CF4993100E69078 /* LaunchScreen.storyboard */,
-				AC462E442CF4993100E69078 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		AC462E482CF4993100E69078 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E402CF4993100E69078 /* Fonts */,
-				AC462E462CF4993100E69078 /* Assets.xcassets */,
-				AC462E472CF4993100E69078 /* Info.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		AC462E4C2CF4993100E69078 /* Jokes */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E492CF4993100E69078 /* AppDelegate.swift */,
-				AC462E4A2CF4993100E69078 /* SceneDelegate.swift */,
-				AC462E612CF4994500E69078 /* Controllers */,
-				AC462E452CF4993100E69078 /* Storyboards */,
-				AC462E482CF4993100E69078 /* Resources */,
-			);
-			path = Jokes;
-			sourceTree = "<group>";
-		};
-		AC462E612CF4994500E69078 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AC462E4B2CF4993100E69078 /* ViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +72,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ACB809852D61C64B009E940B /* Jokes */,
 			);
 			name = Jokes;
 			packageProductDependencies = (
@@ -207,22 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC462E4D2CF4993100E69078 /* LICENSE.txt in Resources */,
-				AC462E4E2CF4993100E69078 /* Roboto-Black.ttf in Resources */,
-				AC462E4F2CF4993100E69078 /* Roboto-BlackItalic.ttf in Resources */,
-				AC462E502CF4993100E69078 /* Roboto-Bold.ttf in Resources */,
-				AC462E512CF4993100E69078 /* Roboto-BoldItalic.ttf in Resources */,
-				AC462E522CF4993100E69078 /* Roboto-Italic.ttf in Resources */,
-				AC462E532CF4993100E69078 /* Roboto-Light.ttf in Resources */,
-				AC462E542CF4993100E69078 /* Roboto-LightItalic.ttf in Resources */,
-				AC462E552CF4993100E69078 /* Roboto-Medium.ttf in Resources */,
-				AC462E562CF4993100E69078 /* Roboto-MediumItalic.ttf in Resources */,
-				AC462E572CF4993100E69078 /* Roboto-Regular.ttf in Resources */,
-				AC462E582CF4993100E69078 /* Roboto-Thin.ttf in Resources */,
-				AC462E592CF4993100E69078 /* Roboto-ThinItalic.ttf in Resources */,
-				AC462E5A2CF4993100E69078 /* LaunchScreen.storyboard in Resources */,
-				AC462E5B2CF4993100E69078 /* Main.storyboard in Resources */,
-				AC462E5C2CF4993100E69078 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,32 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC462E5E2CF4993100E69078 /* AppDelegate.swift in Sources */,
-				AC462E5F2CF4993100E69078 /* SceneDelegate.swift in Sources */,
-				AC462E602CF4993100E69078 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AC462E422CF4993100E69078 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC462E412CF4993100E69078 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		AC462E442CF4993100E69078 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC462E432CF4993100E69078 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AC462E042CF4942A00E69078 /* Debug */ = {
@@ -273,7 +150,6 @@
 				INFOPLIST_FILE = Jokes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +181,6 @@
 				INFOPLIST_FILE = Jokes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
