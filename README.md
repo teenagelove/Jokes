@@ -11,6 +11,6 @@
 ## **Preview**
 
 <p align="center">
-  <img src="Images/setup.png" alt="Right" width="400">
-  <img src="Images/punchline.png" alt="Record" width="400">
+  <img src="Images/setup.png" alt="setup" width="400">
+  <img src="Images/punchline.png" alt="punchline" width="400">
 </p>
