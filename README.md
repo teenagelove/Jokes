@@ -17,11 +17,6 @@ The Jokes App is built to provide a lighthearted experience. It features a clean
 - Simple and intuitive user interface.
 - Categorized joke types.
 
-## **Links**
-[Figma Design](https://www.figma.com/design/LZR5TpBT49pkx0MXcBvP9U/ui-jokes-app?node-id=21-34&t=FGkuWEdZc6kiwiMJ-0)
-
-[API](https://official-joke-api.appspot.com/jokes/random)
-
 ## **Preview**
 
 <p align="center">
